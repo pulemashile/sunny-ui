@@ -16,7 +16,7 @@ export default function Article() {
       <img
         src="./images/icon-arrow-down.svg"
         alt="Arrow Down Icon"
-        className="mt-14 md:mt-24 mx-auto z-50 animate-bounce"
+        className="mt-14 md:mt-24 mx-auto z-50 animate-bounce "
       />
 
      </div>     

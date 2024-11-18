@@ -20,7 +20,7 @@ export default function Nav() {
       {/* Navigation Links (Responsive) */}
       <div
         className={
-          "w-11/12 ml-4 h-96 absolute md:absolute z-[1000] top-[105px] md:top-0   bg-white md:bg-transparent md:flex md:justify-end md:items-center md:gap-12 before:w-0 before:h-0 before:absolute before:-top-6 before:right-0 before:border-t-[24px] before:border-t-transparent before:border-r-[24px] before:border-r-white md:before:hidden " +
+          "w-11/12 ml-4 absolute md:absolute z-[1000] top-[105px] md:top-0   bg-white md:bg-transparent md:flex md:justify-end md:items-center md:gap-12 before:w-0 before:h-0 before:absolute before:-top-6 before:right-0 before:border-t-[24px] before:border-t-transparent before:border-r-[24px] before:border-r-white md:before:hidden " +
           (nav ? "" : "hidden")
         }
       >
