@@ -54,7 +54,7 @@ export default function Article() {
           <img
             src={`./images/${screenWidth}/image-stand-out.jpg`}
             alt="Stand Out"
-            className="w-full md:w-1/2"
+            className="w-full md:w-1/2 "
           />
           <div className="text-container-1">
             <h2 className="article-headings">
@@ -78,8 +78,8 @@ export default function Article() {
         
       {/* Graphic Design Section */}
       <div
-        className="text-container-2 bg-contain bg-no-repeat text-textGraphicDesign"
-        style={{ backgroundImage: `url(${graphicImage})` }}
+        className="text-container-2 bg-contain bg-no-repeat text-textGraphicDesign  md:h-200px w-50px justify-center align-center"
+        style={{ backgroundImage: `url(${graphicImage})` , backgroundPosition: 'top'}}
       >
         <h2 className="article-headings text-[1.75rem] text-inherit">
           Graphic Design
@@ -92,7 +92,7 @@ export default function Article() {
       {/* Photography Section */}
       <div
         className="text-container-2 bg-contain bg-no-repeat text-textPhotography md:h-200px w-50px justify-center align-center"
-        style={{ backgroundImage: `url(${photographyImage})` }}
+        style={{ backgroundImage: `url(${photographyImage})`, backgroundPosition: 'top' }}
       >
         <h2 className="article-headings text-[1.75rem] text-inherit">
           Photography
