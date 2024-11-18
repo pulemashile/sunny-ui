@@ -78,7 +78,7 @@ export default function Article() {
         
       {/* Graphic Design Section */}
       <div
-        className="text-container-2 bg-cover bg-no-repeat text-textGraphicDesign"
+        className="text-container-2 bg-contain bg-no-repeat text-textGraphicDesign"
         style={{ backgroundImage: `url(${graphicImage})` }}
       >
         <h2 className="article-headings text-[1.75rem] text-inherit">
@@ -91,7 +91,7 @@ export default function Article() {
 
       {/* Photography Section */}
       <div
-        className="text-container-2 bg-cover bg-no-repeat text-textPhotography md:h-200px w-50px justify-center align-center"
+        className="text-container-2 bg-contain bg-no-repeat text-textPhotography md:h-200px w-50px justify-center align-center"
         style={{ backgroundImage: `url(${photographyImage})` }}
       >
         <h2 className="article-headings text-[1.75rem] text-inherit">
