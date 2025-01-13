@@ -20,7 +20,7 @@ function App() {
         >
           Frontend Mentor
         </a>
-        . Coded by{" "}
+        . Coded by{"pule "}
         
       </footer>
     </>

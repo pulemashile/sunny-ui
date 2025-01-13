@@ -5,7 +5,7 @@ import desktopImage from "../images/desktop/image-header.jpg";
 
 export default function Header() {
   return (
-    <header className="bg-[#3dbeff]">
+    <header className="">
       {/* <div> */}
       <Nav/>
       
